@@ -2,12 +2,14 @@
 % Please edit documentation in R/load_data.R
 \name{load_data}
 \alias{load_data}
-\title{Load coordinates Dataset from .rda File}
+\title{Load coordinatesDataset from .rda File}
 \usage{
 load_data()
 }
 \value{
 A data frame containing the loaded dataset.
+
+A data.frame containing df_coordinates_final
 }
 \description{
 This function loads a dataset from an \code{.rda} file named
@@ -21,5 +23,4 @@ df_coordinates <- load_data()
 # Inspect the first few rows
 head(df_coordinates)
 }
-
 }
